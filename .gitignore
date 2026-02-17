@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Data & checkpoints (too large for git)
+data/
+checkpoints/
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
