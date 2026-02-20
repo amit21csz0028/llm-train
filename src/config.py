@@ -1,3 +1,11 @@
+"""
+GPT-2 Config
+- @dataclass: used because this class only holds data, no methods needed.
+  Auto-generates __init__, __repr__, etc.
+- This is the single source of truth for all hyperparameters.
+- Every other file (model, dataset, training) imports from here.
+- GPT-2 Small: 124M parameters with these settings.
+"""
 from dataclasses import dataclass
 
 @dataclass
